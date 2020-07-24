@@ -7,6 +7,9 @@ const routes: Routes = [
   {
     path:'listallbook',component:ListallbookComponent
     
+  },
+  {
+    path:'',redirectTo:'/listallbook',pathMatch:'full'
   }
 ];
 

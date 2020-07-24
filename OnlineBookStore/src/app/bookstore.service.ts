@@ -9,6 +9,6 @@ export class BookstoreService {
   
   constructor(private http:HttpClient) { }
   public  listAllBooks(): Observable<any>{
-   return this.http.get("http://localhost:8082/managebook/display");
+   return this.http.get("http://localhost:8082/manageBook/display");
  }
 }
